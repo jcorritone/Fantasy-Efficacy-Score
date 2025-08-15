@@ -1,4 +1,4 @@
-# Fantasy Efficacy Score (FES) Function
+# Fantasy Efficacy Score (FES) Function, assuming a data table exists with columns player, points, start_percent
 
 calculate_fes = function(data) {
   data$baseline_contribution = data$points * data$start_percent
