@@ -1,0 +1,47 @@
+Note: This notebook requires weekly player CSV data (not yet included). Code chunks are provided but will not knit until actual data is added.
+
+---
+title: "Fantasy Efficacy Score (FES): Method & Walkthrough"
+author: "Joseph Corritone"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    df_print: paged
+---
+
+```{r}
+# Preliminaries
+library(tidyverse)
+```
+
+Import CSV file copied from ESPN Player Data
+
+```{r}
+data = read_csv("fantasy-football-players-week-1.csv")
+
+# The CSV contains many columns that contain irrelevant information to the FES calculation. To keep only necessary columns:
+cleaned_data = data %>%
+  select(player_name, team, position, points, start_percent)
+
+# Because ESPN data shows start_percent on a scale from 0-100, we must change the scale to proportion from 0-1:
+cleaned_data = cleaned_data %>%
+  mutate(start_percent = as.numeric(start_percent) / 100)
+```
+
+Using the cleaned data, calculate the baseline (expected weekly output for a starting caliber player) for each position. Note that the baseline will be different week to week AND position to position.
+
+Once the baseline value for each position is calculated, a new column is created containing this value, matched to each player by their position.
+
+Using the FES formula, one more column is added to represent the FES of each player.
+
+```{r}
+baselines = cleaned_data %>%
+    group_by(position) %>%
+    summarise(baseline = sum(points * start_percent, na.rm = TRUE) / sum(start_percent, na.rm = TRUE),
+              .groups = "drop")
+
+fes_data = cleaned_data %>%
+  left_join(baselines, by = "position") %>%
+  mutate(fes = (points - baseline) * start_percent)
+```
