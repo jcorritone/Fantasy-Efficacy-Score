@@ -5,7 +5,7 @@
   // headers
   let headers = [
     "player_name","team","position","type","blank","opp","status",
-    "proj","score","oprk","pct_start","pct_rostered","plus_minus",
+    "proj","points","oprk","start_percent","pct_rostered","plus_minus",
     "fpts","avg","last"
   ];
 
