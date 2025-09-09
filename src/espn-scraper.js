@@ -1,48 +1,63 @@
 (async () => {
-  let totalPages = 7; // adjust for how many pages ESPN shows
+  const totalPages = 7; // 7 pages * 50 players = 350
   let allData = [];
-  
-  // headers
-  let headers = [
+
+  const headers = [
     "player_name","team","position","type","blank","opp","status",
     "proj","points","oprk","start_percent","pct_rostered","plus_minus",
     "fpts","avg","last"
   ];
 
   for (let page = 1; page <= totalPages; page++) {
-    // click page button if not on first page
     if (page > 1) {
-      let pageButton = document.querySelector(`div.paginationNav ul li:nth-child(${page}) a`);
+      // find pagination button by its innerText (page number)
+      const pageButtons = Array.from(document.querySelectorAll("div.paginationNav ul li a"));
+      const pageButton = pageButtons.find(a => a.textContent.trim() === String(page));
+
       if (pageButton) {
+        const currentFirstRow = document.querySelector("table tbody tr td")?.innerText;
         pageButton.click();
-        await new Promise(r => setTimeout(r, 2000)); // wait for load
+
+        // wait until the table actually updates
+        await new Promise(resolve => {
+          const check = setInterval(() => {
+            const newFirstRow = document.querySelector("table tbody tr td")?.innerText;
+            if (newFirstRow && newFirstRow !== currentFirstRow) {
+              clearInterval(check);
+              resolve();
+            }
+          }, 500);
+        });
       }
     }
 
-    // scrape rows
-    let rows = document.querySelectorAll('table tbody tr');
-    let pageData = [];
+    // scrape rows on this page
+    const rows = document.querySelectorAll("table tbody tr");
     for (let row of rows) {
-      let cols = row.querySelectorAll('td');
+      const cols = row.querySelectorAll("td");
 
-      // first col has player name/team/pos stacked
-      let nameTeamPos = cols[0]?.innerText.split("\n").map(s => s.trim());
-      let playerName = nameTeamPos?.[0] || "";
-      let team = nameTeamPos?.[1] || "";
-      let position = nameTeamPos?.[2] || "";
+      const nameTeamPos = cols[0]?.innerText.split("\n").map(s => s.trim());
+      const playerName = nameTeamPos?.[0] || "";
+      const team = nameTeamPos?.[1] || "";
+      const position = nameTeamPos?.[2] || "";
 
-      // rest of the columns
-      let rest = Array.from(cols).slice(1).map(td => td.innerText.trim());
+      const rest = Array.from(cols).slice(1).map(td => td.innerText.trim());
 
-      pageData.push([playerName, team, position, ...rest]);
+      allData.push([playerName, team, position, ...rest]);
     }
-
-    allData = allData.concat(pageData);
   }
 
-  // format CSV
-  allData.unshift(headers);
-  let csv = allData.map(row => row.join(",")).join("\n");
+  // dedupe just in case
+  const seen = new Set();
+  const uniqueData = allData.filter(row => {
+    const key = row[0] + "|" + row[1] + "|" + row[2];
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  uniqueData.unshift(headers);
+  const csv = uniqueData.map(row => row.join(",")).join("\n");
   copy(csv);
-  console.log("✅ CSV copied to clipboard");
+  console.log(`✅ CSV copied with ${uniqueData.length - 1} unique players`);
 })();
