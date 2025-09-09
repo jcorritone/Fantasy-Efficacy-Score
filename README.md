@@ -1,7 +1,7 @@
 # Fantasy Efficacy Score (FES)
 
 **Author:** Joseph Corritone  
-**Last Updated:** August 2025
+**Last Updated:** September 2025
 
 ## :football: Overview
 The **Fantasy Efficacy Score (FES)** is a custom fantasy football metric designed to quantify the value a player provides **above positional expectations** while accounting for how often that player is actually trusted in fantasy lineups. FES is not a fantasy points metric, rather, it provides insights into **a player’s contextual value**.
@@ -34,14 +34,14 @@ This rewards players who outperform expectations **and** are in starting lineups
 
 Sum all weekly FES Values for the season to get a player’s **total FES**.
 
-### Example
+### Example from Week 1 2025
 
-| Player | Position | Week | Fantasy Points | % Started | Baseline | Weekly FES |
-|--------|----------|------|----------------|-----------|----------|------------|
-| A      | RB       | 3    | 18.0           | 85%       | 12.5     | 4.68       |
-| B      | TE       | 3    | 10.0           | 50%       | 7.0      | 1.50       |
+| Player         | Position | Week | Fantasy Points | % Started |  Baseline  | Weekly FES |
+|----------------|----------|------|----------------|-----------|------------|------------|
+| Josh Allen     | QB       | 1    | 38.76          | 0.973     | 21.216120  | 17.070     |
+| Derrick Henry  | TE       | 1    | 29.20          | 0.991     | 14.678080  | 14.391     |
 
-*% Started = Percentage of leagues where the player was in starting lineups that week.*
+*% Started = Percentage of ESPN leagues where the player was in starting lineups that week.*
 
 ## :bar_chart: Why It’s Effective
 
