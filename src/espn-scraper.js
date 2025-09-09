@@ -1,3 +1,5 @@
+// Paste this into console, then paste CSV into a file, then go to the next page of players and repeat until you reach players with 0% start percentage
+
 (async () => {
   const totalPages = 7; // 7 pages * 50 players = 350
   let allData = [];
