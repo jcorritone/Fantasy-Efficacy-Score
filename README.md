@@ -39,7 +39,7 @@ Sum all weekly FES Values for the season to get a player’s **total FES**.
 | Player         | Position | Week | Fantasy Points | % Started |  Baseline  | Weekly FES |
 |----------------|----------|------|----------------|-----------|------------|------------|
 | Josh Allen     | QB       | 1    | 38.76          | 0.973     | 21.216120  | 17.070     |
-| Derrick Henry  | TE       | 1    | 29.20          | 0.991     | 14.678080  | 14.391     |
+| Derrick Henry  | RB       | 1    | 29.20          | 0.991     | 14.678080  | 14.391     |
 
 *% Started = Percentage of ESPN leagues where the player was in starting lineups that week.*
 
