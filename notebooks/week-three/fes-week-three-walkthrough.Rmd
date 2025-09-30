@@ -1,0 +1,119 @@
+---
+title: "Fantasy Efficacy Score (FES): Week Three"
+author: "Joseph Corritone"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    df_print: paged
+---
+
+```{r}
+# Preliminaries
+library(tidyverse)
+```
+
+Import CSV file copied from ESPN Player Data
+
+```{r}
+setwd("/Users/jcorritone/Desktop")
+espn_week_three_data = read_csv("espn-week-three-data.csv")
+
+# The CSV contains many columns that contain irrelevant information to the FES calculation. To keep only necessary columns:
+cleaned_espn_week_three_data = espn_week_three_data %>%
+  select(player_name, team, position, points, start_percent)
+
+# Remove players with -- points to maintain realism and account for injured players:
+cleaned_espn_week_three_data = cleaned_espn_week_three_data %>%
+  filter(points != "--")
+
+# Because ESPN data shows start_percent on a scale from 0-100, we must change the scale to proportion from 0-1. In addition, ensure the points column is treated as a numeric. In addition, remove players that were started in 0% of leagues:
+cleaned_espn_week_three_data = cleaned_espn_week_three_data %>%
+  mutate(start_percent = as.numeric(start_percent) / 100) %>%
+  mutate(points = as.numeric(points)) %>%
+  filter(start_percent != 0.000)
+
+# Export the cleaned_espn_week_X_data as a CSV
+write.csv(cleaned_espn_week_three_data, 
+          "/Users/jcorritone/Desktop/cleaned_espn_week_three_data.csv", 
+          row.names = FALSE)
+```
+
+Using the cleaned data, calculate the baseline (expected weekly output for a starting caliber player) for each position. Note that the baseline will be different week to week AND position to position.
+
+Once the baseline value for each position is calculated, a new column is created containing this value, matched to each player by their position.
+
+Using the FES formula, one more column is added to represent the FES of each player.
+
+```{r}
+week_three_baselines = cleaned_espn_week_three_data %>%
+    group_by(position) %>%
+    summarise(baseline = sum(points * start_percent, na.rm = TRUE) / sum(start_percent, na.rm = TRUE),
+              .groups = "drop")
+
+fes_week_three_data = cleaned_espn_week_three_data %>%
+  left_join(week_three_baselines, by = "position") %>%
+  mutate(fes = (points - baseline) * start_percent)
+
+write.csv(fes_week_three_data, 
+          "/Users/jcorritone/Desktop/fes_week_three_data.csv", 
+          row.names = FALSE)
+```
+
+Visualize FES output for each position by creating a histogram revealing the FES distribution
+
+```{r}
+# The following distributions show graphs only including players started in over 10% of ESPN fantasy leagues to remove bench player noise.
+
+# Histogram of FES
+ggplot(fes_week_three_data %>% filter(start_percent > .10), aes(x = fes)) +
+  geom_histogram(bins = 20, fill = "steelblue", color = "black") +
+  labs(title = "Histogram of FES (Week 3)", subtitle = "Players Started in Greater Than 10% of ESPN Leagues", x = "FES", y = "Number of Players") +
+  theme_linedraw()
+
+# Scatter Plot of Fantasy Points & FES
+ggplot(fes_week_three_data %>% filter(start_percent > .10), aes(x = points, y = fes)) +
+  geom_point(alpha = 0.6, ) +
+  geom_smooth(method = "lm", se = F, color = "darkred", alpha = 0.6) +
+  labs(title = "Scatter Plot of FES & Fantasy Points (Week 3)", subtitle = "Players Started in Greater Than 10% of ESPN Leagues", x = "Fantasy Points", y = "FES") +
+  theme_bw(base_size = 10, )
+
+# Box Plot of FES Across Positions
+ggplot(fes_week_three_data %>% filter(start_percent > .10), aes(x = position, y = fes, fill = position)) +
+  geom_boxplot() +
+  labs(title = "Box Plot of FES Across Positions (Week 3)", subtitle = "Players Started in Greater Than 10% of ESPN Leagues", x = "Player Position", y = "FES") +
+  theme_linedraw()
+
+# Scatter Plot of Start Percent & FES
+ggplot(fes_week_three_data, aes(x = start_percent, y = fes)) +
+  geom_point(alpha = 0.6, ) +
+  geom_smooth(method = "lm", se = F, color = "darkgreen", alpha = 0.6) +
+  theme_linedraw()
+```
+
+```{r}
+fes_week_three_data <- fes_week_three_data %>%
+  mutate(highlight = ifelse(player_name %in% c("CeeDee Lamb", "Malik Nabers", "Jonathan Taylor", "Vikings D/ST"), "Highlight", "Normal"))
+library(ggrepel)
+
+ggplot(fes_week_three_data %>% filter(start_percent > 0.10), 
+       aes(x = points, y = fes)) +
+  geom_point(aes(color = highlight), alpha = 0.7) +  # map color to highlight
+  geom_smooth(method = "lm", se = FALSE, color = "darkred")  +
+  scale_color_manual(values = c("Highlight" = "navy")) +  # choose colors
+  geom_text_repel(
+    data = subset(fes_week_three_data, player_name %in% c("CeeDee Lamb", "Malik Nabers", "Jonathan Taylor", "Vikings D/ST")),
+    aes(label = player_name),
+    size = 2,
+    nudge_y = -0.75,          # adjust vertical position of labels
+    color = "navy",
+    fontface = "bold"
+  ) +
+  labs(title = "Scatter Plot of FES & Fantasy Points (Week 3)",
+       subtitle = "Players Started in Greater Than 10% of ESPN Leagues",
+       x = "Fantasy Points",
+       y = "FES") +
+  theme_bw(base_size = 10)
+```
+
+
