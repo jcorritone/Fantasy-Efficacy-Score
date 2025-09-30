@@ -58,8 +58,11 @@
     return true;
   });
 
+  // prepend headers
   uniqueData.unshift(headers);
-  const csv = uniqueData.map(row => row.join(",")).join("\n");
-  copy(csv);
-  console.log(`✅ CSV copied with ${uniqueData.length - 1} unique players`);
+
+  // 🔑 use tabs instead of commas
+  const tsv = uniqueData.map(row => row.join("\t")).join("\n");
+  copy(tsv);
+  console.log(`✅ TSV copied with ${uniqueData.length - 1} unique players. Paste directly into Excel!`);
 })();
