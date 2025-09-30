@@ -1,0 +1,357 @@
+﻿player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Saquon Barkley,Phi,RB,FA,,LAR,W 33-26,--,9.5,1st,99.8,99.9,0,45.3,15.1,--
+Bijan Robinson,Atl,RB,FA,,@Car,L 0-30,--,16.1,17th,99.8,99.9,0,60.3,20.1,--
+CeeDee Lamb,Dal,WR,FA,,@Chi,L 14-31,--,0,27th,99.7,99.9,0,38.2,12.7,--
+Ja'Marr Chase,Cin,WR,FA,,@Min,L 10-48,--,8.9,3rd,99.6,99.9,0,50,16.7,--
+Puka Nacua,LAR,WR,FA,,@Phi,L 26-33,--,22.8,9th,99.5,99.9,0,73.5,24.5,--
+Amon-Ra St. Brown,Det,WR,FA,,@Bal,W 38-30,--,20.7,19th,99.5,99.9,0,68.4,22.8,--
+Christian McCaffrey,SF,RB,FA,,Ari,W 16-15,--,24,15th,99.4,99.9,0,69.9,23.3,--
+Justin Jefferson,Min,WR,FA,,Cin,W 48-10,--,12.5,21st,99.4,99.9,0,38.4,12.8,--
+Jahmyr Gibbs,Det,RB,FA,,@Bal,W 38-30,--,26.9,28th,99.4,99.9,0,61.3,20.4,--
+Malik Nabers,NYG,WR,FA,,KC,L 9-22,--,3.3,25th,99.1,99.9,0,53.1,17.7,--
+Trey McBride,Ari,TE,FA,,@SF,L 15-16,--,15.3,12th,98.8,99.9,0,41.2,13.7,--
+Josh Allen,Buf,QB,FA,,Mia,W 31-21,--,23.02,31st,98.7,99.9,0,73.6,24.5,--
+Derrick Henry,Bal,RB,FA,,Det,L 30-38,--,10.7,12th,98.7,99.9,0,42.2,14.1,--
+Jonathan Taylor,Ind,RB,FA,,@Ten,W 41-20,--,32.8,22nd,98.5,99.9,0,75.1,25,--
+Lamar Jackson,Bal,QB,FA,,Det,L 30-38,--,27.02,19th,98.3,99.9,0,82.68,27.6,--
+De'Von Achane,Mia,RB,FA,,@Buf,L 21-31,--,16.1,14th,98.1,99.8,0,58.8,19.6,--
+Brandon Aubrey,Dal,K,FA,,@Chi,L 14-31,--,8,17th,96.8,98.3,0.5,42,14,--
+Nico Collins,Hou,WR,FA,,@Jax,L 10-17,--,22.4,26th,96.8,99.9,0,42.1,14,--
+Bucky Irving,TB,RB,FA,,NYJ,W 29-27,--,13.9,24th,96.7,99.7,0,46.5,15.5,--
+Brock Bowers,LV,TE,FA,,@Wsh,L 24-41,--,9.8,27th,96.1,99.9,0,33.9,11.3,--
+James Cook,Buf,RB,FA,,Mia,W 31-21,--,20.8,27th,95.6,99.6,0.1,68.5,22.8,--
+Josh Jacobs,GB,RB,FA,,@Cle,L 10-13,--,12.4,2nd,94.8,99.9,0,40.8,13.6,--
+Jalen Hurts,Phi,QB,FA,,LAR,W 33-26,--,29.04,1st,93.1,99.9,0,64.86,21.6,--
+Chase Brown,Cin,RB,FA,,@Min,L 10-48,--,6,21st,92.5,99.3,-0.2,27.6,9.2,--
+Davante Adams,LAR,WR,FA,,@Phi,L 26-33,--,14.6,9th,91.5,99.2,0.2,46.3,15.4,--
+Ashton Jeanty,LV,RB,FA,,@Wsh,L 24-41,--,6.3,6th,91.3,99.8,0,25.7,8.6,--
+Jake Bates,Det,K,FA,,@Bal,W 38-30,--,8,12th,88.8,94.5,-3.1,24,8,--
+Patrick Mahomes,KC,QB,FA,,@NYG,W 22-9,--,13.16,27th,88.8,98.9,0.3,61.26,20.4,--
+Cameron Dicker,LAC,K,FA,,Den,W 23-20,--,12,32nd,88.6,94.2,-2.7,29,9.7,--
+Drake London,Atl,WR,FA,,@Car,L 0-30,--,10.5,2nd,88.6,99.2,-0.2,29.9,10,--
+Kyren Williams,LAR,RB,FA,,@Phi,L 26-33,--,19.2,10th,88.5,99.2,-0.2,43.1,14.4,--
+Sam LaPorta,Det,TE,FA,,@Bal,W 38-30,--,7.3,31st,88.2,99.1,-0.4,26.8,8.9,--
+Alvin Kamara,NO,RB,FA,,@Sea,L 13-44,--,6.6,30th,88.1,98.7,-0.1,36.3,12.1,--
+Travis Kelce,KC,TE,FA,,@NYG,W 22-9,--,6.6,24th,87.6,98.1,-0.3,29.4,9.8,--
+Packers D/ST,GB,D/ST,FA,,@Cle,L 10-13,--,9,28th,87.2,91.4,46.6,26,8.7,--
+A.J. Brown,Phi,WR,FA,,LAR,W 33-26,--,22.9,8th,85.5,99.8,0,32.4,10.8,--
+Jaxon Smith-Njigba,Sea,WR,FA,,NO,W 44-13,--,20.6,10th,85.4,99,0,58.3,19.4,--
+Zay Flowers,Bal,WR,FA,,Det,L 30-38,--,3.3,24th,85.1,97.7,0.5,46.3,15.4,--
+Baker Mayfield,TB,QB,FA,,NYJ,W 29-27,--,17.72,22nd,82.8,97.6,0.5,60.2,20.1,--
+Brian Thomas Jr.,Jax,WR,FA,,Hou,W 17-10,--,7.5,23rd,82.7,99.7,-0.1,25.4,8.5,--
+Chuba Hubbard,Car,RB,FA,,Atl,W 30-0,--,9.6,4th,82.6,97.9,-0.1,46.2,15.4,--
+Mike Evans,TB,WR,FA,,NYJ,W 29-27,--,13.3,16th,81.6,97.8,-0.3,34,11.3,--
+Jake Elliott,Phi,K,FA,,LAR,W 33-26,--,3,31st,81.4,86.9,-1.4,23,7.7,--
+Ladd McConkey,LAC,WR,FA,,Den,W 23-20,--,8.1,4th,80.9,98.9,-0.4,31.3,10.4,--
+Tyreek Hill,Mia,WR,FA,,@Buf,L 21-31,--,15.9,7th,80.6,98.9,-0.1,40.8,13.6,--
+Chris Boswell,Pit,K,FA,,@NE,W 21-14,--,3,22nd,80.4,84.9,0.3,30,10,--
+Garrett Wilson,NYJ,WR,FA,,@TB,L 27-29,--,24.4,5th,80.2,98.2,-0.2,55.9,18.6,--
+Seahawks D/ST,Sea,D/ST,FA,,NO,W 44-13,--,17,14th,78.4,84.1,15.5,40,13.3,--
+DK Metcalf,Pit,WR,FA,,@NE,W 21-14,--,12.2,31st,77.9,98.1,-0.3,35.5,11.8,--
+Vikings D/ST,Min,D/ST,FA,,Cin,W 48-10,--,32,21st,77.8,85.1,-2.8,41,13.7,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Breece Hall,NYJ,RB,FA,,@TB,L 27-29,--,9.2,22nd,76.1,96.4,-0.3,31.5,10.5,--
+Kenneth Walker III,Sea,RB,FA,,NO,W 44-13,--,18,26th,75.8,96.7,0.4,42.2,14.1,--
+Chase McLaughlin,TB,K,FA,,NYJ,W 29-27,--,20,30th,75.4,81.6,-11.8,26,8.7,--
+James Conner,Ari,RB,FA,,@SF,L 15-16,--,6.7,11th,73.3,97,-0.5,33.3,11.1,--
+Tyler Warren,Ind,TE,FA,,@Ten,W 41-20,--,6.8,20th,72.1,93.9,0.7,33.6,11.2,--
+Steelers D/ST,Pit,D/ST,FA,,@NE,W 21-14,--,15,24th,71.8,84.8,-12.3,20,6.7,--
+Harrison Butker,KC,K,FA,,@NYG,W 22-9,--,12,29th,70.3,76.6,-3.9,29,9.7,--
+Javonte Williams,Dal,RB,FA,,@Chi,L 14-31,--,12.2,29th,69.9,92.9,4.7,57.6,19.2,--
+T.J. Hockenson,Min,TE,FA,,Cin,W 48-10,--,15.9,21st,66.6,93.6,-3.7,22.6,7.5,--
+Rome Odunze,Chi,WR,FA,,Dal,W 31-14,--,15.2,30th,65.5,93.4,3.6,62.7,20.9,--
+Tee Higgins,Cin,WR,FA,,@Min,L 10-48,--,2.5,3rd,65.4,98.9,-0.6,23.4,7.8,--
+Tyler Loop,Bal,K,FA,,Det,L 30-38,--,7,6th,64.4,68.2,5.9,32,10.7,--
+Texans D/ST,Hou,D/ST,FA,,@Jax,L 10-17,--,7,7th,64.2,79.5,-7.4,20,6.7,--
+Marvin Harrison Jr.,Ari,WR,FA,,@SF,L 15-16,--,7.4,14th,62.2,97.2,-0.7,30.2,10.1,--
+D'Andre Swift,Chi,RB,FA,,Dal,W 31-14,--,10.8,20th,61.5,94.5,-0.3,34.2,11.4,--
+Jaylen Warren,Pit,RB,FA,,@NE,W 21-14,--,13.1,18th,61.3,91.2,2.1,44.4,14.8,--
+Broncos D/ST,Den,D/ST,FA,,@LAC,L 20-23,--,8,11th,61.2,86.9,-12.1,19,6.3,--
+Tucker Kraft,GB,TE,FA,,@Cle,L 10-13,--,5.9,8th,60.8,92.1,6.6,40.2,13.4,--
+Terry McLaurin,Wsh,WR,FA,,LV,W 41-24,--,10.4,29th,60.5,97.7,-0.9,24.9,8.3,--
+Juwan Johnson,NO,TE,FA,,@Sea,L 13-44,--,11.1,32nd,57.7,79,30.9,42.6,14.2,--
+Justin Herbert,LAC,QB,FA,,Den,W 23-20,--,14.6,4th,57.4,93.9,2.8,61.3,20.4,--
+Bills D/ST,Buf,D/ST,FA,,Mia,W 31-21,--,4,31st,57.4,67.3,2.3,14,4.7,--
+David Njoku,Cle,TE,FA,,GB,W 13-10,--,9,28th,55.3,88.6,-4.8,23.7,7.9,--
+Kyler Murray,Ari,QB,FA,,@SF,L 15-16,--,14.06,7th,54.6,89.8,-1.7,46.38,15.5,--
+Daniel Jones,Ind,QB,FA,,@Ten,W 41-20,--,15.82,2nd,54.2,79.1,57.9,68.14,22.7,--
+Omarion Hampton,LAC,RB,FA,,Den,W 23-20,--,24.9,13th,54,96.4,-1.4,36.5,12.2,--
+Tetairoa McMillan,Car,WR,FA,,Atl,W 30-0,--,7.8,13th,53.5,93.3,-0.1,35.6,11.9,--
+Ravens D/ST,Bal,D/ST,FA,,Det,L 30-38,--,-6,4th,53.3,83,-11.7,2,0.7,--
+Jakobi Meyers,LV,WR,FA,,@Wsh,L 24-41,--,9.3,6th,53.1,90.6,0.4,39.8,13.3,--
+Cam Little,Jax,K,FA,,Hou,W 17-10,--,4,1st,52.6,57.1,-1.3,29,9.7,--
+Matt Prater,Buf,K,FA,,Mia,W 31-21,--,7,27th,52.4,54,19.1,33,11,--
+Tony Pollard,Ten,RB,FA,,Ind,L 20-41,--,13.9,16th,52.3,91.5,-0.6,31,10.3,--
+David Montgomery,Det,RB,FA,,@Bal,W 38-30,--,29.4,28th,51.9,94.1,-0.4,50.8,16.9,--
+Dak Prescott,Dal,QB,FA,,@Chi,L 14-31,--,12.04,32nd,51.8,86.4,6.8,42,14,--
+Falcons D/ST,Atl,D/ST,FA,,@Car,L 0-30,--,5,29th,51.3,53.8,52.7,29,9.7,--
+Jordan Mason,Min,RB,FA,,Cin,W 48-10,--,23.6,31st,50.7,84.7,8.5,37.9,12.6,--
+Jake Ferguson,Dal,TE,FA,,@Chi,L 14-31,--,21.2,19th,50.5,82.4,14.7,45.3,15.1,--
+Buccaneers D/ST,TB,D/ST,FA,,NYJ,W 29-27,--,16,20th,49.4,53.3,38.7,21,7,--
+Deebo Samuel,Wsh,WR,FA,,LV,W 41-24,--,4.9,29th,49.3,90,1.2,44.9,15,--
+DJ Moore,Chi,WR,FA,,Dal,W 31-14,--,12.8,30th,48.4,93.7,-1.4,31,10.3,--
+Travis Etienne Jr.,Jax,RB,FA,,Hou,W 17-10,--,11.6,25th,48.2,88.6,1.7,47.1,15.7,--
+Bo Nix,Den,QB,FA,,@LAC,L 20-23,--,13.42,9th,47.9,89.4,-1.5,40.5,13.5,--
+Eagles D/ST,Phi,D/ST,FA,,LAR,W 33-26,--,12,14th,46.4,64.1,-6,21,7,--
+George Pickens,Dal,WR,FA,,@Chi,L 14-31,--,17.8,27th,45.4,92.6,0.2,41.6,13.9,--
+Colts D/ST,Ind,D/ST,FA,,@Ten,W 41-20,--,16,30th,44,48.4,11.8,31,10.3,--
+Courtland Sutton,Den,WR,FA,,@LAC,L 20-23,--,23.8,11th,42.4,93.5,-1.3,43.5,14.5,--
+Keenan Allen,LAC,WR,FA,,Den,W 23-20,--,19.5,4th,42.4,85,4.8,56.4,18.8,--
+Patriots D/ST,NE,D/ST,FA,,Pit,L 14-21,--,4,27th,41.5,49,-4.5,21,7,--
+Jameson Williams,Det,WR,FA,,@Bal,W 38-30,--,6.3,19th,40.5,92.1,-0.1,31.7,10.6,--
+Caleb Williams,Chi,QB,FA,,Dal,W 31-14,--,29.12,30th,39.8,80.3,8,70.3,23.4,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Zach Ertz,Wsh,TE,FA,,LV,W 41-24,--,6.8,5th,39.1,70.8,20.9,36.8,12.3,--
+Emeka Egbuka,TB,WR,FA,,NYJ,W 29-27,--,14.5,16th,38.2,92.5,0.1,51,17,--
+Mark Andrews,Bal,TE,FA,,Det,L 30-38,--,27.1,9th,38,82.5,-9.4,30,10,--
+Drake Maye,NE,QB,FA,,Pit,L 14-21,--,19.22,28th,36.2,77.4,6.7,61.3,20.4,--
+Lions D/ST,Det,D/ST,FA,,@Bal,W 38-30,--,8,4th,36.1,55.7,-14.8,18,6,--
+Ka'imi Fairbairn,Hou,K,FA,,@Jax,L 10-17,--,3,6th,33.8,38.1,-3.2,26,8.7,--
+Cairo Santos,Chi,K,FA,,Dal,W 31-14,--,7,22nd,33,37.3,-3.8,16,5.3,--
+Jared Goff,Det,QB,FA,,@Bal,W 38-30,--,12.68,29th,32.3,77.7,15.6,57.54,19.2,--
+DeVonta Smith,Phi,WR,FA,,LAR,W 33-26,--,20,8th,32.1,92.6,-1.1,33.9,11.3,--
+Jordan Love,GB,QB,FA,,@Cle,L 10-13,--,11.12,20th,31.6,78.7,8,47.92,16,--
+Quentin Johnston,LAC,WR,FA,,Den,W 23-20,--,14.9,4th,30.2,80.5,15.8,55.7,18.6,--
+Kyle Pitts Sr.,Atl,TE,FA,,@Car,L 0-30,--,7.9,30th,29.9,69.7,1.1,28.5,9.5,--
+Calvin Ridley,Ten,WR,FA,,Ind,L 20-41,--,3.7,17th,28.2,89.7,-2.1,19.1,6.4,--
+Spencer Shrader,Ind,K,FA,,@Ten,W 41-20,--,10,12th,26.7,28.8,25.7,44,14.7,--
+Keon Coleman,Buf,WR,FA,,Mia,W 31-21,--,5,12th,26.6,84.8,-0.4,35.8,11.9,--
+Dalton Kincaid,Buf,TE,FA,,Mia,W 31-21,--,17.6,23rd,26.5,70.6,-0.6,40.1,13.4,--
+Jerry Jeudy,Cle,WR,FA,,GB,W 13-10,--,2.7,15th,26.3,90.8,-2.1,23.4,7.8,--
+TreVeyon Henderson,NE,RB,FA,,Pit,L 14-21,--,7.7,19th,26.3,92.6,-3.2,24.8,8.3,--
+49ers D/ST,SF,D/ST,FA,,Ari,W 16-15,--,6,21st,25.8,33.4,-17.5,21,7,--
+Jaylen Waddle,Mia,WR,FA,,@Buf,L 21-31,--,14.9,7th,25.3,90.9,-0.6,39.7,13.2,--
+J.K. Dobbins,Den,RB,FA,,@LAC,L 20-23,--,15.3,3rd,25.1,86,1.1,45.6,15.2,--
+Matt Gay,Wsh,K,FA,,LV,W 41-24,--,13,10th,24.2,29.4,-7.4,20,6.7,--
+Isiah Pacheco,KC,RB,FA,,@NYG,W 22-9,--,5.8,32nd,23.3,88.6,-3,14.5,4.8,--
+Jayden Daniels,Wsh,QB,FA,,LV,W 41-24,--,--,18th,22.2,99.8,-0.1,39.82,19.9,--
+Bengals D/ST,Cin,D/ST,FA,,@Min,L 10-48,--,-1,32nd,21.7,22.9,20.8,8,2.7,--
+Jacory Croskey-Merritt,Wsh,RB,FA,,LV,W 41-24,--,10.1,5th,21.7,84.3,1.3,26,8.7,--
+Travis Hunter,Jax,WR,FA,,Hou,W 17-10,--,3.1,23rd,21.5,91.1,-2.8,17.6,5.9,--
+Nick Chubb,Hou,RB,FA,,@Jax,L 10-17,--,7,9th,21,78.3,4.5,28.2,9.4,--
+Cardinals D/ST,Ari,D/ST,FA,,@SF,L 15-16,--,5,18th,20.6,27.9,-26.4,21,7,--
+Chris Olave,NO,WR,FA,,@Sea,L 13-44,--,15.7,1st,19.6,86.7,-0.7,39.5,13.2,--
+Ricky Pearsall,SF,WR,FA,,Ari,W 16-15,--,19.7,22nd,19.3,85,-2.2,43.7,14.6,--
+Rams D/ST,LAR,D/ST,FA,,@Phi,L 26-33,--,7,9th,19.3,32.7,-32.2,28,9.3,--
+Rhamondre Stevenson,NE,RB,FA,,Pit,L 14-21,--,4.6,19th,19.2,81.9,4,30.5,10.2,--
+Chiefs D/ST,KC,D/ST,FA,,@NYG,W 22-9,--,13,8th,18.6,22.5,10.1,19,6.3,--
+Jonnu Smith,Pit,TE,FA,,@NE,W 21-14,--,5.3,18th,18.2,40.3,5.9,24.5,8.2,--
+Hunter Henry,NE,TE,FA,,Pit,L 14-21,--,29,17th,16.7,48.9,-9.8,41.5,13.8,--
+Hollywood Brown,KC,WR,FA,,@NYG,W 22-9,--,8.2,32nd,15.9,70.9,-5.8,36.1,12,--
+Cooper Kupp,Sea,WR,FA,,NO,W 44-13,--,5.1,10th,15.6,84.3,0.2,24.6,8.2,--
+Harold Fannin Jr.,Cle,TE,FA,,GB,W 13-10,--,5.5,28th,15.4,39.3,11.6,28.9,9.6,--
+Tyler Bass,Buf,K,FA,,Mia,W 31-21,--,--,27th,15.3,39.4,-4.3,--,--,--
+Michael Pittman Jr.,Ind,WR,FA,,@Ten,W 41-20,--,19.3,28th,15.1,84.9,-1.1,47.3,15.8,--
+Wil Lutz,Den,K,FA,,@LAC,L 20-23,--,9,25th,14.4,16.6,-6.8,20,6.7,--
+Evan Engram,Den,TE,FA,,@LAC,L 20-23,--,--,22nd,13.7,65.8,-18,7.3,3.7,--
+C.J. Stroud,Hou,QB,FA,,@Jax,L 10-17,--,10.36,16th,13.7,56.5,-5.6,34.06,11.4,--
+Wan'Dale Robinson,NYG,WR,FA,,KC,L 9-22,--,3.6,25th,13.1,59.1,29.2,43.3,14.4,--
+Tyrone Tracy Jr.,NYG,RB,FA,,KC,L 9-22,--,5.6,6th,13,82.6,-5.3,20.2,6.7,--
+Brandon McManus,GB,K,FA,,@Cle,L 10-13,--,3,12th,12.9,15.1,1.5,22,7.3,--
+Michael Penix Jr.,Atl,QB,FA,,@Car,L 0-30,--,3.78,3rd,12.7,31.2,3,33.1,11,--
+Evan McPherson,Cin,K,FA,,@Min,L 10-48,--,5,26th,12.6,15.1,-3.8,17,5.7,--
+Dallas Goedert,Phi,TE,FA,,LAR,W 33-26,--,10.3,16th,12.2,68.6,-3.7,21.7,10.9,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Joe Burrow,Cin,QB,FA,,@Min,L 10-48,--,--,10th,12.1,80.2,-19.6,15.86,7.9,--
+George Kittle,SF,TE,FA,,Ari,W 16-15,--,--,29th,12,98,-1.7,12.5,12.5,--
+Trevor Lawrence,Jax,QB,FA,,Hou,W 17-10,--,7.78,17th,12,35,-1.5,37.34,12.4,--
+Matthew Stafford,LAR,QB,FA,,@Phi,L 26-33,--,13.84,11th,11.3,37.3,3.8,44.76,14.9,--
+Cam Skattebo,NYG,RB,FA,,KC,L 9-22,--,24.1,6th,11,78.9,7.8,40.9,13.6,--
+Russell Wilson,NYG,QB,FA,,KC,L 9-22,--,5.1,24th,10.5,20.6,17.1,46.52,15.5,--
+Commanders D/ST,Wsh,D/ST,FA,,LV,W 41-24,--,10,26th,10.3,13.4,1.1,17,5.7,--
+Stefon Diggs,NE,WR,FA,,Pit,L 14-21,--,5.3,20th,9.3,84,-3.4,24.2,8.1,--
+Chargers D/ST,LAC,D/ST,FA,,Den,W 23-20,--,4,17th,9.2,12.4,5.6,20,6.7,--
+Colston Loveland,Chi,TE,FA,,Dal,W 31-14,--,4.1,14th,8.9,50.8,-18.6,7.3,2.4,--
+Xavier Worthy,KC,WR,FA,,@NYG,W 22-9,--,--,32nd,8.8,94.1,-0.8,0,0,--
+Khalil Shakir,Buf,WR,FA,,Mia,W 31-21,--,14.5,12th,8.4,75.5,-3.8,29.1,9.7,--
+Jets D/ST,NYJ,D/ST,FA,,@TB,L 27-29,--,9,13th,8.2,12.1,-2.8,11,3.7,--
+Jason Sanders,Mia,K,FA,,@Buf,L 21-31,--,--,20th,8.1,14,-1.5,--,--,--
+Quinshon Judkins,Cle,RB,FA,,GB,W 13-10,--,16.5,8th,8,69.5,12.2,26.6,13.3,--
+Troy Franklin,Den,WR,FA,,@LAC,L 20-23,--,2.8,11th,8,49.4,47.4,35.2,11.7,--
+Jason Myers,Sea,K,FA,,NO,W 44-13,--,17,21st,8,9.7,-0.9,33,11,--
+Joshua Karty,LAR,K,FA,,@Phi,L 26-33,--,15,12th,7.6,9.7,-0.8,26,8.7,--
+RJ Harvey,Den,RB,FA,,@LAC,L 20-23,--,4.6,3rd,7.5,81.1,-6.9,15.9,5.3,--
+Aaron Rodgers,Pit,QB,FA,,@NE,W 21-14,--,11.66,21st,7.1,21,0.4,47.74,15.9,--
+Brock Purdy,SF,QB,FA,,Ari,W 16-15,--,--,15th,7,75.1,-6.2,16.78,16.8,--
+Marcus Mariota,Wsh,QB,FA,,LV,W 41-24,--,20.28,18th,6.4,7.3,7.2,20.28,20.3,--
+Jake Browning,Cin,QB,FA,,@Min,L 10-48,--,5.9,10th,6.3,13.3,13.2,23.64,11.8,--
+Kenneth Gainwell,Min,RB,FA,,@NE,W 21-14,--,9.6,18th,6.3,27.1,17.1,21.5,7.2,--
+Aaron Jones Sr.,MIN,RB,FA,,Cin,W 48-10,--,--,31st,6,84.2,-8.2,18,9,--
+Romeo Doubs,GB,WR,FA,,@Cle,L 10-13,--,4.5,18th,6,33.8,13.5,25.1,8.4,--
+Matthew Golden,GB,WR,FA,,@Cle,L 10-13,--,10.1,18th,5.9,80.3,-6.8,15.2,5.1,--
+Brenton Strange,Jax,TE,FA,,Hou,W 17-10,--,12.1,4th,5.9,21.3,-5.4,26.7,8.9,--
+Chig Okonkwo,Ten,TE,FA,,Ind,L 20-41,--,11.6,7th,5.8,15.1,5.3,24,8,--
+Will Reichard,Min,K,FA,,Cin,W 48-10,--,15,9th,5.4,6.5,-1.1,32,10.7,--
+Rashid Shaheed,NO,WR,FA,,@Sea,L 13-44,--,8.2,1st,5.4,65.1,-1.1,32.7,10.9,--
+Kareem Hunt,KC,RB,FA,,@NYG,W 22-9,--,11.4,32nd,4.9,31.6,7.1,20.4,6.8,--
+Giants D/ST,NYG,D/ST,FA,,KC,L 9-22,--,2,14th,4.4,8.1,-2.5,-1,-0.3,--
+Tua Tagovailoa,Mia,QB,FA,,@Buf,L 21-31,--,12.84,26th,4.3,23,-0.9,36.7,12.2,--
+Jaguars D/ST,Jax,D/ST,FA,,Hou,W 17-10,--,13,24th,4.2,5.1,3.1,32,10.7,--
+Rashee Rice,KC,WR,FA,,@NYG,W 22-9,--,--,32nd,3.8,86.2,-1.2,--,--,--
+Cowboys D/ST,Dal,D/ST,FA,,@Chi,L 14-31,--,-2,18th,3.5,5.9,-8.4,-5,-1.7,--
+Daniel Carlson,LV,K,FA,,@Wsh,L 24-41,--,4,17th,3.3,4.1,0,26,8.7,--
+Dalton Schultz,Hou,TE,FA,,@Jax,L 10-17,--,8.9,10th,3.2,9.3,1.3,20.6,6.9,--
+Rachaad White,TB,RB,FA,,NYJ,W 29-27,--,2.4,24th,3,51.9,4.2,19.6,6.5,--
+Joe Mixon,Hou,RB,FA,,@Jax,L 10-17,--,--,9th,3,65.6,-2.1,--,--,--
+Trey Benson,Ari,RB,FA,,@SF,L 15-16,--,8.1,11th,2.9,54.8,-1.1,25,8.3,--
+Parker Romo,Atl,K,FA,,@Car,L 0-30,--,-2,27th,2.8,3.2,3,16,8,--
+Geno Smith,LV,QB,FA,,@Wsh,L 24-41,--,26.06,14th,2.8,10,-2.1,46.74,15.6,--
+Cedric Tillman,Cle,WR,FA,,GB,W 13-10,--,5.6,15th,2.7,44,-2.9,32,10.7,--
+Jauan Jennings,SF,WR,FA,,Ari,W 16-15,--,--,22nd,2.6,76.5,0.9,23.5,11.8,--
+Darnell Mooney,Atl,WR,FA,,@Car,L 0-30,--,8.4,2nd,2.6,58.5,-3.7,12.4,6.2,--
+Nick Folk,NYJ,K,FA,,@TB,L 27-29,--,10,12th,2.5,3.7,-0.4,26,8.7,--
+Cade Otton,TB,TE,FA,,NYJ,W 29-27,--,0,25th,2.5,13,-2.6,5.5,1.8,--
+Justin Fields,NYJ,QB,FA,,@TB,L 27-29,--,--,23rd,2.5,68.8,-14.6,33.5,16.8,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Mac Jones,SF,QB,FA,,Ari,W 16-15,--,13.26,15th,2.3,4.1,2.7,35.02,17.5,--
+Joey Slye,Ten,K,FA,,Ind,L 20-41,--,9,1st,2.3,2.6,2,41,13.7,--
+Dylan Sampson,Cle,RB,FA,,GB,W 13-10,--,0.2,8th,2.2,50.7,-15.9,28.4,9.5,--
+Sam Darnold,Sea,QB,FA,,NO,W 44-13,--,16.72,25th,2.1,7.7,0.4,37.92,12.6,--
+Jerome Ford,Cle,RB,FA,,GB,W 13-10,--,5,8th,2.1,43.5,-6.8,16.9,5.6,--
+Elic Ayomanor,Ten,WR,FA,,Ind,L 20-41,--,13.8,17th,2.1,21.1,13.3,32.7,10.9,--
+Bears D/ST,Chi,D/ST,FA,,Dal,W 31-14,--,10,3rd,2.1,4.6,-4.1,12,4,--
+Tyler Allgeier,Atl,RB,FA,,@Car,L 0-30,--,1.4,17th,1.9,37.6,3.5,18.8,6.3,--
+Bryce Young,Car,QB,FA,,Atl,W 30-0,--,11.64,5th,1.9,9.7,-0.7,41.12,13.7,--
+Bhayshul Tuten,Jax,RB,FA,,Hou,W 17-10,--,8.1,25th,1.8,48.1,8.1,24.6,8.2,--
+Pat Freiermuth,Pit,TE,FA,,@NE,W 21-14,--,1.6,18th,1.8,9.2,-0.4,13.5,4.5,--
+Carson Wentz,Min,QB,FA,,Cin,W 48-10,--,15.32,13th,1.8,3.1,3,15.32,15.3,--
+Cam Ward,Ten,QB,FA,,Ind,L 20-41,--,11.96,6th,1.7,15.9,-3.4,24.24,8.1,--
+Brian Robinson Jr.,SF,RB,FA,,Ari,W 16-15,--,2.2,15th,1.6,45.8,-5,9.8,3.3,--
+Kaleb Johnson,Pit,RB,FA,,@NE,W 21-14,--,--,18th,1.6,49.3,-18.1,-0.1,-0.1,--
+Rashod Bateman,Bal,WR,FA,,Det,L 30-38,--,17.3,24th,1.5,24.3,-2.9,23.8,7.9,--
+Najee Harris,LAC,RB,FA,,Den,W 23-20,--,2.8,13th,1.5,37.7,-2.1,11.6,3.9,--
+Ja'Tavion Sanders,CAR,TE,FA,,Atl,W 30-0,--,3.1,1st,1.5,4,3,20.2,6.7,--
+Eddy Pineiro,SF,K,FA,,Ari,W 16-15,--,12,3rd,1.4,1.7,0.9,22,11,--
+Kayshon Boutte,NE,WR,FA,,Pit,L 14-21,--,4.8,20th,1.4,23.4,-3.1,29.7,9.9,--
+Josh Downs,Ind,WR,FA,,@Ten,W 41-20,--,5.4,28th,1.4,53.4,-4.1,19.7,6.6,--
+Jake Tonges,SF,TE,FA,,Ari,W 16-15,--,4.1,29th,1.4,3,0.6,21.7,7.2,--
+Austin Ekeler,Wsh,RB,FA,,LV,W 41-24,--,--,5th,1.3,43.3,-38.2,13.1,6.6,--
+Zach Charbonnet,Sea,RB,FA,,NO,W 44-13,--,--,26th,1.2,70.1,-2.9,11.7,5.9,--
+Dolphins D/ST,Mia,D/ST,FA,,@Buf,L 21-31,--,0,1st,1.2,2.1,-0.5,5,1.7,--
+Marvin Mims Jr.,Den,WR,FA,,@LAC,L 20-23,--,1.4,11th,1.2,25.1,-5.5,14,4.7,--
+J.J. McCarthy,Min,QB,FA,,Cin,W 48-10,--,--,13th,1.1,44,-22.3,25.04,12.5,--
+DeAndre Hopkins,Bal,WR,FA,,Det,L 30-38,--,2.3,24th,1.1,13.4,3.7,28.2,9.4,--
+Browns D/ST,Cle,D/ST,FA,,GB,W 13-10,--,14,6th,0.9,1.7,-0.1,23,7.7,--
+Raiders D/ST,LV,D/ST,FA,,@Wsh,L 24-41,--,-3,11th,0.8,1.2,0.3,10,3.3,--
+Justice Hill,Bal,RB,FA,,Det,L 30-38,--,7.5,12th,0.8,12.7,-0.5,12.9,4.3,--
+Hunter Renfrow,Car,WR,FA,,Atl,W 30-0,--,2.6,13th,0.8,7.2,5.5,29.5,9.8,--
+Noah Fant,Cin,TE,FA,,@Min,L 10-48,--,5.6,6th,0.8,3,-0.9,24,8,--
+Calvin Austin III,Pit,WR,FA,,@NE,W 21-14,--,12.4,31st,0.8,10.7,-3,32.6,10.9,--
+Adam Thielen,Min,WR,FA,,Cin,W 48-10,--,0,21st,0.7,26.5,-7.5,6.6,2.2,--
+JuJu Smith-Schuster,KC,WR,FA,,@NYG,W 22-9,--,9.5,32nd,0.7,9.8,-5.7,21.5,7.2,--
+Dyami Brown,Jax,WR,FA,,Hou,W 17-10,--,2.7,23rd,0.7,6.2,4.4,29.1,9.7,--
+Younghoe Koo,FA,K,FA,,--,,--,--,--,0.7,2,-1.8,--,8,--
+Graham Gano,NYG,K,FA,,KC,L 9-22,--,3,22nd,0.7,0.9,0.1,24,8,--
+Chad Ryland,Ari,K,FA,,@SF,L 15-16,--,6,3rd,0.7,0.9,-0.2,26,8.7,--
+Christian Kirk,Hou,WR,FA,,@Jax,L 10-17,--,5.5,26th,0.7,21.9,-0.7,5.5,5.5,--
+Tank Bigsby,Phi,RB,FA,,LAR,W 33-26,--,0,1st,0.6,41.1,-9.9,1.2,0.4,--
+Joshua Palmer,Buf,WR,FA,,Mia,W 31-21,--,1.5,12th,0.6,12,-1.4,19.3,6.4,--
+Dontayvion Wicks,GB,WR,FA,,@Cle,L 10-13,--,4.1,18th,0.6,3.9,3.7,17.5,5.8,--
+Andy Borregales,NE,K,FA,,Pit,L 14-21,--,2,17th,0.6,0.8,-0.1,18,6,--
+Tyquan Thornton,KC,WR,FA,,@NYG,W 22-9,--,18.1,32nd,0.5,2.2,1.1,38.1,12.7,--
+Saints D/ST,NO,D/ST,FA,,@Sea,L 13-44,--,-1,21st,0.5,0.8,-0.3,13,4.3,--
+Tyrod Taylor,NYJ,QB,FA,,@TB,L 27-29,--,16.68,23rd,0.5,0.9,0.8,25.02,12.5,--
+Miles Sanders,Dal,RB,FA,,@Chi,L 14-31,--,8.3,29th,0.5,4.6,1.4,22.2,7.4,--
+Xavier Legette,Car,WR,FA,,Atl,W 30-0,--,--,13th,0.5,38.2,-9,4.8,2.4,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Chris Godwin Jr.,TB,WR,FA,,NYJ,W 29-27,--,--,16th,0.5,76.2,-1.5,--,--,--
+Spencer Rattler,NO,QB,FA,,@Sea,L 13-44,--,11.72,8th,0.5,1.8,0.5,44.86,15,--
+Jayden Higgins,Hou,WR,FA,,@Jax,L 10-17,--,1.5,26th,0.5,36,-10.8,10.5,3.5,--
+Kyle Monangai,Chi,RB,FA,,Dal,W 31-14,--,3,20th,0.5,7.6,5.5,9.7,3.2,--
+Jayden Reed,GB,WR,FA,,@Cle,L 10-13,--,--,18th,0.4,56.5,-13.6,13.5,6.8,--
+Blake Corum,LAR,RB,FA,,@Phi,L 26-33,--,5.3,10th,0.4,11.7,6.4,18.3,6.1,--
+KaVontae Turpin,Dal,WR,FA,,@Chi,L 14-31,--,8.8,27th,0.4,2.4,0.3,28.8,9.6,--
+Theo Johnson,NYG,TE,FA,,KC,L 9-22,--,2,3rd,0.4,1.9,-0.2,10.9,3.6,--
+Braelon Allen,NYJ,RB,FA,,@TB,L 27-29,--,6.7,22nd,0.4,28.9,-7.5,14.7,4.9,--
+Tyler Higbee,LAR,TE,FA,,@Phi,L 26-33,--,0,11th,0.4,2.2,-0.1,7.7,2.6,--
+Ollie Gordon II,Mia,RB,FA,,@Buf,L 21-31,--,9.8,14th,0.4,23.2,-8.5,13.4,4.5,--
+Mike Gesicki,Cin,TE,FA,,@Min,L 10-48,--,1.6,6th,0.4,2.2,-0.2,8.8,2.9,--
+DeMario Douglas,NE,WR,FA,,Pit,L 14-21,--,2.7,20th,0.4,13.6,-4,12.7,4.2,--
+Chimere Dike,Ten,WR,FA,,Ind,L 20-41,--,3.5,17th,0.4,0.7,0.4,7.2,2.4,--
+Jordan Addison,Min,WR,FA,,Cin,W 48-10,--,--,21st,0.3,75.8,-1.5,--,--,--
+Ray Davis,Buf,RB,FA,,Mia,W 31-21,--,0,27th,0.3,16.2,-1.9,3.5,1.2,--
+Blake Grupe,NO,K,FA,,@Sea,L 13-44,--,6,10th,0.3,0.5,-0.1,14,4.7,--
+Ryan Fitzgerald,Car,K,FA,,Atl,W 30-0,--,15,8th,0.3,0.5,-0.1,24,8,--
+Jeremy McNichols,Wsh,RB,FA,,LV,W 41-24,--,13.8,5th,0.3,3.1,3,16.3,5.4,--
+Justin Tucker,SSPD,FA,FA,,--,,--,--,--,0.3,0.5,-0.1,--,--,--
+Titans D/ST,Ten,D/ST,FA,,Ind,L 20-41,--,-4,2nd,0.3,0.6,-0.1,6,2,--
+Joe Flacco,Cle,QB,FA,,GB,W 13-10,--,3.68,12th,0.3,1.9,-0.5,24.64,8.2,--
+Mason Taylor,NYJ,TE,FA,,@TB,L 27-29,--,5.8,12th,0.3,3.5,-1,10.3,3.4,--
+Panthers D/ST,Car,D/ST,FA,,Atl,W 30-0,--,17,9th,0.3,0.4,0,23,7.7,--
+Jake Moody,FA,K,FA,,--,,--,--,--,0.3,0.6,-0.3,--,3,--
+Woody Marks,Hou,RB,FA,,@Jax,L 10-17,--,4.6,9th,0.2,8.9,0.7,11,3.7,--
+Isaiah Likely,Bal,TE,FA,,Det,L 30-38,--,--,9th,0.2,11.9,5.4,--,--,--
+Rico Dowdle,Car,RB,FA,,Atl,W 30-0,--,10.8,4th,0.2,5.5,-1.2,17.3,5.8,--
+Cole Kmet,Chi,TE,FA,,Dal,W 31-14,--,8,14th,0.2,0.9,0,17,5.7,--
+Dont'e Thornton Jr.,LV,WR,FA,,@Wsh,L 24-41,--,4.9,6th,0.2,8.2,-4,14.4,4.8,--
+Malik Washington,Mia,WR,FA,,@Buf,L 21-31,--,6.2,7th,0.2,1.3,0.1,20.6,6.9,--
+Jalen Nailor,Min,WR,FA,,Cin,W 48-10,--,6.7,21st,0.2,1.1,0.6,16.6,5.5,--
+Michael Wilson,Ari,WR,FA,,@SF,L 15-16,--,1.5,14th,0.2,5.6,-0.8,11.1,3.7,--
+Sterling Shepard,TB,WR,FA,,NYJ,W 29-27,--,12,16th,0.2,0.9,0.5,26.3,8.8,--
+Tre Tucker,LV,WR,FA,,@Wsh,L 24-41,--,40.9,6th,0.2,2,-0.4,59.2,19.7,--
+Darren Waller,Mia,TE,FA,,@Buf,L 21-31,--,--,2nd,0.2,11.1,-2.4,--,--,--
+Jaydon Blue,Dal,RB,FA,,@Chi,L 14-31,--,--,29th,0.2,25.9,-7.4,--,--,--
+Darius Slayton,NYG,WR,FA,,KC,L 9-22,--,7,25th,0.2,4,-0.6,15.1,5,--
+Kendre Miller,NO,RB,FA,,@Sea,L 13-44,--,5.6,30th,0.2,5.5,-0.8,10,3.3,--
+Isaac TeSlaa,Det,WR,FA,,@Bal,W 38-30,--,0,19th,0.2,5.2,-0.6,12.2,4.1,--
+Elijah Arroyo,Sea,TE,FA,,NO,W 44-13,--,0,26th,0.2,1.7,-0.3,6.8,2.3,--
+Zane Gonzalez,FA,K,FA,,--,,--,--,--,0.1,0.2,0,--,--,--
+AJ Barner,Sea,TE,FA,,NO,W 44-13,--,3.3,26th,0.1,0.4,0.1,15.3,5.1,--
+Adam Trautman,Den,TE,FA,,@LAC,L 20-23,--,0,22nd,0.1,0.2,0.1,11.5,3.8,--
+Michael Mayer,LV,TE,FA,,@Wsh,L 24-41,--,0,27th,0.1,2.3,-3.6,10.7,3.6,--
+Noah Gray,KC,TE,FA,,@NYG,W 22-9,--,4.7,24th,0.1,0.6,0,7.1,2.4,--
+Dawson Knox,Buf,TE,FA,,Mia,W 31-21,--,0,23rd,0.1,0.7,0,7.9,2.6,--
+Andre Szmyt,Cle,K,FA,,GB,W 13-10,--,9,5th,0.1,0.2,0,18,6,--
+Luther Burden III,Chi,WR,FA,,Dal,W 31-14,--,19.8,30th,0.1,9.3,-2.9,22,7.3,--
+Tyjae Spears,Ten,RB,FA,,Ind,L 20-41,--,--,16th,0.1,27.5,-2,--,--,--
+player_name,team,position,type,blank,opp,status,proj,points,oprk,start_percent,pct_rostered,plus_minus,fpts,avg,last
+Ray-Ray McCloud III,Atl,WR,FA,,@Car,L 0-30,--,4,2nd,0.1,2.6,-0.7,12.1,4,--
+Will Shipley,Phi,RB,FA,,LAR,W 33-26,--,--,1st,0.1,10,-2.6,2.6,2.6,--
+Tyler Lockett,Ten,WR,FA,,Ind,L 20-41,--,7.7,17th,0.1,4.1,-1,10.6,3.5,--
+Olamide Zaccheaus,Chi,WR,FA,,Dal,W 31-14,--,6.6,30th,0.1,0.6,0.1,18.9,6.3,--
+Antonio Gibson,NE,RB,FA,,Pit,L 14-21,--,0.8,19th,0.1,0.6,0.3,10.9,3.6,--
+Kendrick Bourne,SF,WR,FA,,Ari,W 16-15,--,7.8,22nd,0.1,0.4,0,14,7,--
+Samaje Perine,Cin,RB,FA,,@Min,L 10-48,--,0.1,21st,0.1,1.2,-0.2,2.7,0.9,--
+Tre' Harris,LAC,WR,FA,,Den,W 23-20,--,0,4th,0.1,7.5,-1.7,7.5,2.5,--
+Trevor Etienne,Car,RB,FA,,Atl,W 30-0,--,-2,4th,0.1,0.8,-0.1,-0.4,-0.1,--
+Alec Pierce,Ind,WR,FA,,@Ten,W 41-20,--,10.7,28th,0.1,1.1,0.1,26.1,8.7,--
+Zavier Scott,Min,RB,FA,,Cin,W 48-10,--,6,31st,0.1,0.7,0,6,3,--
+Amari Cooper,LV,WR,FA,,@Wsh,L 24-41,--,--,6th,0.1,3.5,-1.4,--,--,--
+Jahan Dotson,Phi,WR,FA,,LAR,W 33-26,--,1.7,8th,0.1,0.7,-0.1,12,4,--
+Luke Musgrave,GB,TE,FA,,@Cle,L 10-13,--,0,8th,0.1,1,0.7,6.6,2.2,--
+Anthony Richardson Sr.,Ind,QB,FA,,@Ten,W 41-20,--,-0.1,2nd,0.1,1.2,-0.3,-0.1,-0.1,--
+Chris Brooks,GB,RB,FA,,@Cle,L 10-13,--,0,2nd,0.1,0.6,0.3,7,2.3,--
+Ty Johnson,Buf,RB,FA,,Mia,W 31-21,--,3.1,27th,0.1,1,-0.1,6.1,2,--
+Riley Patterson,Mia,K,FA,,@Buf,L 21-31,--,3,20th,0.1,0.1,0,14,4.7,--
+George Holani,Sea,RB,FA,,NO,W 44-13,--,4.2,26th,0.1,0.2,0.1,4.2,1.4,--
+Tory Horton,Sea,WR,FA,,NO,W 44-13,--,18.2,10th,0.1,1.1,0.1,29.4,9.8,--
+Kyle Juszczyk,SF,RB,FA,,Ari,W 16-15,--,7.1,15th,0.1,0.5,-0.1,13.8,4.6,--
+Nick Westbrook-Ikhine,Mia,WR,FA,,@Buf,L 21-31,--,0,7th,0.1,2.6,-0.3,5.5,1.8,--
+Tutu Atwell,LAR,WR,FA,,@Phi,L 26-33,--,0,9th,0.1,1.8,-0.4,1.4,0.5,--
+Harrison Mevis,FA,K,FA,,--,,--,--,--,0.1,0.1,0,--,--,--
+AJ Dillon,Phi,RB,FA,,LAR,W 33-26,--,0,1st,0.1,0.5,0,2.9,1,--
+Dameon Pierce,Hou,RB,FA,,@Jax,L 10-17,--,--,9th,0.1,4,-2.1,0.5,0.5,--
+Brandin Cooks,NO,WR,FA,,@Sea,L 13-44,--,5.4,1st,0.1,1.3,-0.2,15.6,5.2,--
+Jaylen Wright,Mia,RB,FA,,@Buf,L 21-31,--,--,14th,0.1,6.1,-0.7,--,--,--
+Jaxson Dart,NYG,QB,FA,,KC,L 9-22,--,0.3,24th,0.1,3.7,-0.9,0,0,--
+Roschon Johnson,Chi,RB,FA,,Dal,W 31-14,--,0,20th,0.1,3,-1,0,0,--
+Isaac Guerendo,SF,RB,FA,,Ari,W 16-15,--,0,15th,0.1,4.1,-1.1,0,0,--
+Zamir White,LV,RB,FA,,@Wsh,L 24-41,--,3.3,6th,0.1,0.5,0,7.4,2.5,--
+Chris Rodriguez Jr.,Wsh,RB,FA,,LV,W 41-24,--,3.9,5th,0.1,1.6,0.5,3.9,3.9,--
+Andrei Iosivas,Cin,WR,FA,,@Min,L 10-48,--,0,3rd,0.1,0.8,-0.2,2.2,0.7,--
+Tyler Conklin,LAC,TE,FA,,Den,W 23-20,--,0,15th,0.1,0.3,-0.1,7.2,2.4,--
+Shedeur Sanders,Cle,QB,FA,,GB,W 13-10,--,--,12th,0.1,2.2,-0.4,--,--,--
+Brandon Aiyuk,SF,WR,FA,,Ari,W 16-15,--,--,22nd,0.1,37.3,-0.8,--,--,--
+Parker Washington,Jax,WR,FA,,Hou,W 17-10,--,7.4,23rd,0.1,0.2,0.1,20,6.7,--
+Luke Farrell,SF,TE,FA,,Ari,W 16-15,--,0,29th,0.1,0.2,0,10.9,3.6,--
+Jack Bech,LV,WR,FA,,@Wsh,L 24-41,--,2,6th,0.1,5.1,-1,5.3,1.8,--
+DJ Giddens,Ind,RB,FA,,@Ten,W 41-20,--,0.3,22nd,0.1,2.5,-0.8,4.4,1.5,--
+Cam Akers,Min,RB,FA,,Cin,W 48-10,--,1.9,31st,0.1,0.7,0.7,1.9,1.9,--
+Pat Bryant,Den,WR,FA,,@LAC,L 20-23,--,0,11th,0.1,2.2,-0.5,3.8,1.3,--
+Raheem Mostert,LV,RB,FA,,@Wsh,L 24-41,--,--,6th,0,1.2,-0.4,--,--,--
+Dustin Hopkins,FA,K,FA,,--,,--,--,--,0,0.1,0,--,--,--
+Myles Price,Min,WR,FA,,Cin,W 48-10,--,0,21st,0,0.1,0,-2,-0.7,--
+Emanuel Wilson,GB,RB,FA,,@Cle,L 10-13,--,2.5,2nd,0,0.4,-0.1,2.9,1,--
+Adonai Mitchell,Ind,WR,FA,,@Ten,W 41-20,--,0,28th,0,1.5,-0.3,8.1,2.7,--
+Jalen Tolbert,Dal,WR,FA,,@Chi,L 14-31,--,7.4,27th,0,0.5,0,12,4,--
+Julius Chestnut,Ten,RB,FA,,Ind,L 20-41,--,2.6,16th,0,0.2,-0.1,2.8,0.9,--
